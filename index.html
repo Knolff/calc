@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--  Js -->
+    <script src="./js/app.js"></script>
+
+</head>
+<body>
+    <!-- wraps the entire calculator interface -->
+    <div class="calculator">
+        <!-- Calculator screen -->
+        <input type="text" class="calculator-screen" value="" disabled>
+
+        <!--wrapper for keys of our calculator -->
+        <div class="calculator-keys">
+            <!-- Operator keys -->
+            <button type="button" class="operator" value="+">+</button>
+            <button type="button" class="operator" value="-">-</button>
+            <button type="button" class="operator" value="*">&times;</button>
+            <button type="button" class="operator" value="/">&divide;</button>
+
+            <!-- input numbers for the calculator -->
+            <!-- Top row -->
+            <button type="button" value="7">7</button>
+            <button type="button" value="8">8</button>
+            <button type="button" value="9">9</button>
+
+            <!-- middle row -->
+            <button type="button" value="4">4</button>
+            <button type="button" value="5">5</button>
+            <button type="button" value="6">6</button>
+
+            <!-- bottom row -->
+            <button type="button" value="1">1</button>
+            <button type="button" value="2">2</button>
+            <button type="button" value="3">3</button>
+
+            <!-- remaining claculator utilities -->
+            <button type="button" value="0">0</button>
+            <button type="button" class="decimal" value=".">.</button>
+            <button type="button" class="all-clear" value="all-clear">AC</button>
+            <button type="button" class="operator" id="equal-sign" value="=">=</button>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
